@@ -1,0 +1,15 @@
+# visual studio code 의 설정파일은 제외한다. 
+
+#디렉토리 무시하기
+.vscode/
+bin/
+build/
+.gradle/
+
+#파일무시하기
+*.zip
+*.log
+/*.class
+
+#확장자무시하기
+*.[ac]
